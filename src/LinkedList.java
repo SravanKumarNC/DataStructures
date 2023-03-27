@@ -1,3 +1,14 @@
+//LinkedList with extra features;
+//different methods are
+// insert
+//show
+//insertAt
+//deleteAt
+//insertAtStart
+//size;
+
+
+
 public class LinkedList
 {
     Node head;
