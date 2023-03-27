@@ -30,20 +30,38 @@ public class Main {
 //        st.push(8);
 //        st.display();
 
-        StackUsingLinkedList st = new StackUsingLinkedList();
+//        StackUsingLinkedList st = new StackUsingLinkedList();
+//
+//        st.push(85);
+//        st.push(55);
+//        st.push(45);
+//        st.push(54);
+//        st.push(112);
+//        st.display();
+//        st.pop();
+//        st.display();
+//        System.out.println(st.peek());
+//        st.pop();
+//        st.display();
+//        System.out.println(st.peek());
 
-        st.push(85);
-        st.push(55);
-        st.push(45);
-        st.push(54);
-        st.push(112);
-        st.display();
-        st.pop();
-        st.display();
-        System.out.println(st.peek());
-        st.pop();
-        st.display();
-        System.out.println(st.peek());
+        Queue q = new Queue(10);
+
+        q.enqueue(13);
+        q.enqueue(4);
+        q.enqueue(22);
+        q.enqueue(31);
+        q.enqueue(58);
+
+        q.show();
+        q.dequeue();
+        System.out.println(" ");
+        q.show();
+
+
+
+
+
 
     }
 }
