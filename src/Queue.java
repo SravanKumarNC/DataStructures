@@ -28,6 +28,10 @@ public class Queue
         size--;
         return pop;
     }
+    public void pop(){
+        dequeueEnd++;
+        size--;
+    }
     public int size(){
         return  size;
     }

@@ -57,6 +57,9 @@ public class Main {
         q.dequeue();
         System.out.println(" ");
         q.show();
+        System.out.println(" ");
+        q.pop();
+        q.show();
 
 
 
